@@ -1,9 +1,12 @@
 title: AI Blog  
 author: Cibin Anoop 
-description: Exploring AI technologies and their uses  
-remote_theme: jekyll-theme-name  
+description: Exploring AI technologies and their uses    
+theme: minima
+show_excerpts: true
+paginate: 5
 plugins:
-  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-feed
 navigation:
   - title: Home
     url: /
