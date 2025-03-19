@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Tools Directory | Your One-Stop AI Resource</title>
+    <meta name="description" content="Discover the best AI tools for your needs. Compare features, pricing, and user reviews for AI writing tools, image generators, chatbots, and more.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <h1>AI<span>Tools</span>Directory</h1>
+                </a>
+            </div>
+            <nav class="main-nav">
+                <button class="mobile-menu-toggle">
+                    <span class="hamburger"></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="tools.html">AI Tools</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="comparisons.html">Comparisons</a></li>
+                    <li><a href="news.html">AI News</a></li>
+                    <li><a href="quiz.html">Find Your Tool</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Discover the Best AI Tools for Your Needs</h1>
+                    <p>Explore our comprehensive directory of AI tools, read expert reviews, and find the perfect AI solution for your specific requirements.</p>
+                    <div class="hero-cta">
+                        <a href="tools.html" class="btn btn-primary">Browse AI Tools</a>
+                        <a href="quiz.html" class="btn btn-secondary">Find Your Perfect Tool</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="/api/placeholder/600/400" alt="AI Tools Illustration">
+                </div>
+            </div>
+        </section>
+
+        <!-- Search & Filter Section -->
+        <section class="search-filter">
+            <div class="container">
+                <div class="search-bar">
+                    <input type="text" id="search-input" placeholder="Search AI tools...">
+                    <button id="search-button"><i class="fas fa-search"></i></button>
+                </div>
+                <div class="filters">
+                    <div class="filter-group">
+                        <label for="category-filter">Category:</label>
+                        <select id="category-filter">
+                            <option value="">All Categories</option>
+                            <option value="writing">Writing & Content</option>
+                            <option value="image">Image Generation</option>
+                            <option value="audio">Audio & Speech</option>
+                            <option value="video">Video Creation</option>
+                            <option value="chatbot">Chatbots & Assistants</option>
+                            <option value="productivity">Productivity</option>
+                            <option value="development">Development</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="price-filter">Price:</label>
+                        <select id="price-filter">
+                            <option value="">All Prices</option>
+                            <option value="free">Free</option>
+                            <option value="freemium">Freemium</option>
+                            <option value="paid">Paid</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Tool Section -->
+        <section class="featured-tool">
+            <div class="container">
+                <div class="section-header">
+                    <h2>AI Tool of the Week</h2>
+                    <p>Our expert pick for this week's most impressive AI tool</p>
+                </div>
+                <div class="featured-tool-card">
+                    <div class="tool-image">
+                        <img src="/api/placeholder/300/300" alt="Featured AI Tool">
+                    </div>
+                    <div class="tool-content">
+                        <div class="tool-header">
+                            <h3>MidJourney v6</h3>
+                            <span class="tool-category">Image Generation</span>
+                        </div>
+                        <p class="tool-description">MidJourney v6 represents a significant leap in AI image generation technology, offering unprecedented photorealistic results and creative control.</p>
+                        <div class="tool-features">
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li>Photorealistic image generation</li>
+                                <li>Advanced style control</li>
+                                <li>Human anatomy improvements</li>
+                                <li>Text rendering capabilities</li>
+                            </ul>
+                        </div>
+                        <div class="tool-pricing">
+                            <h4>Pricing:</h4>
+                            <span class="price-tag">Freemium</span>
+                            <p>Basic plan: Free | Pro plan: $25/month</p>
+                        </div>
+                        <div class="tool-rating">
+                            <span class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </span>
+                            <span class="rating-number">4.5/5</span>
+                            <span class="reviews-count">(235 reviews)</span>
+                        </div>
+                        <div class="tool-cta">
+                            <a href="tool-detail.html?id=midjourney-v6" class="btn btn-secondary">Read Full Review</a>
+                            <a href="https://www.midjourney.com" target="_blank" rel="noopener" class="btn btn-primary">Visit Website <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tools Grid Section -->
+        <section class="tools-grid">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Popular AI Tools</h2>
+                    <p>Discover top-rated AI tools across various categories</p>
+                </div>
+                <div class="tools-container">
+                    <!-- Tool Card 1 -->
+                    <div class="tool-card">
+                        <div class="tool-image">
+                            <img src="/api/placeholder/200/200" alt="ChatGPT">
+                        </div>
+                        <div class="tool-content">
+                            <div class="tool-header">
+                                <h3>ChatGPT</h3>
+                                <span class="tool-category">Chatbot</span>
+                            </div>
+                            <p class="tool-description">Advanced AI chatbot for natural language processing and content generation.</p>
+                            <div class="tool-meta">
+                                <span class="price-tag">Freemium</span>
+                                <span class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <span>4.8</span>
+                                </span>
+                            </div>
+                            <a href="tool-detail.html?id=chatgpt" class="btn btn-sm">View Details</a>
+                        </div>
+                    </div>
+
+                    <!-- Tool Card 2 -->
+                    <div class="tool-card">
+                        <div class="tool-image">
+                            <img src="/api/placeholder/200/200" alt="DALL-E 3">
+                        </div>
+                        <div class="tool-content">
+                            <div class="tool-header">
+                                <h3>DALL-E 3</h3>
+                                <span class="tool-category">Image Generation</span>
+                            </div>
+                            <p class="tool-description">Create stunning images from text descriptions with advanced AI.</p>
+                            <div class="tool-meta">
+                                <span class="price-tag">Paid</span>
+                                <span class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <span>4.7</span>
+                                </span>
+                            </div>
+                            <a href="tool-detail.html?id=dalle-3" class="btn btn-sm">View Details</a>
+                        </div>
+                    </div>
+
+                    <!-- Tool Card 3 -->
+                    <div class="tool-card">
+                        <div class="tool-image">
+                            <img src="/api/placeholder/200/200" alt="Claude AI">
+                        </div>
+                        <div class="tool-content">
+                            <div class="tool-header">
+                                <h3>Claude AI</h3>
+                                <span class="tool-category">Chatbot</span>
+                            </div>
+                            <p class="tool-description">Anthropic's AI assistant focused on helpful, harmless, and honest interactions.</p>
+                            <div class="tool-meta">
+                                <span class="price-tag">Freemium</span>
+                                <span class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <span>4.6</span>
+                                </span>
+                            </div>
+                            <a href="tool-detail.html?id=claude-ai" class="btn btn-sm">View Details</a>
+                        </div>
+                    </div>
+
+                    <!-- Tool Card 4 -->
+                    <div class="tool-card">
+                        <div class="tool-image">
+                            <img src="/api/placeholder/200/200" alt="Jasper AI">
+                        </div>
+                        <div class="tool-content">
+                            <div class="tool-header">
+                                <h3>Jasper AI</h3>
+                                <span class="tool-category">Writing</span>
+                            </div>
+                            <p class="tool-description">AI-powered content creation platform for marketing and business content.</p>
+                            <div class="tool-meta">
+                                <span class="price-tag">Paid</span>
+                                <span class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <span>4.5</span>
+                                </span>
+                            </div>
+                            <a href="tool-detail.html?id=jasper-ai" class="btn btn-sm">View Details</a>
+                        </div>
+                    </div>
+
+                    <!-- Tool Card 5 -->
+                    <div class="tool-card">
+                        <div class="tool-image">
+                            <img src="/api/placeholder/200/200" alt="Gemini">
+                        </div>
+                        <div class="tool-content">
+                            <div class="tool-header">
+                                <h3>Gemini</h3>
+                                <span class="tool-category">Chatbot</span>
+                            </div>
+                            <p class="tool-description">Google's multimodal AI model that can process text, images, and code.</p>
+                            <div class="tool-meta">
+                                <span class="price-tag">Freemium</span>
+                                <span class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <span>4.4</span>
+                                </span>
+                            </div>
+                            <a href="tool-detail.html?id=gemini" class="btn btn-sm">View Details</a>
+                        </div>
+                    </div>
+
+                    <!-- Tool Card 6 -->
+                    <div class="tool-card">
+                        <div class="tool-image">
+                            <img src="/api/placeholder/200/200" alt="Copy.ai">
+                        </div>
+                        <div class="tool-content">
+                            <div class="tool-header">
+                                <h3>Copy.ai</h3>
+                                <span class="tool-category">Writing</span>
+                            </div>
+                            <p class="tool-description">AI copywriting tool that generates high-quality content for marketing.</p>
+                            <div class="tool-meta">
+                                <span class="price-tag">Freemium</span>
+                                <span class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <span>4.3</span>
+                                </span>
+                            </div>
+                            <a href="tool-detail.html?id=copy-ai" class="btn btn-sm">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="view-all-container">
+                    <a href="tools.html" class="btn btn-secondary">View All AI Tools</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- AI Tool Comparison Section -->
+        <section class="tool-comparison">
+            <div class="container">
+                <div class="section-header">
+                    <h2>AI Tool Comparisons</h2>
+                    <p>See how popular AI tools stack up against each other</p>
+                </div>
+                <div class="comparison-preview">
+                    <div class="comparison-card">
+                        <h3>ChatGPT vs Claude vs Gemini</h3>
+                        <p>Compare features, pricing, and capabilities of the top AI chatbots.</p>
+                        <a href="comparisons.html?compare=chatgpt-claude-gemini" class="btn btn-sm">See Comparison</a>
+                    </div>
+                    <div class="comparison-card">
+                        <h3>MidJourney vs DALL-E vs Stable Diffusion</h3>
+                        <p>Which AI image generator delivers the best results for your needs?</p>
+                        <a href="comparisons.html?compare=midjourney-dalle-stable-diffusion" class="btn btn-sm">See Comparison</a>
+                    </div>
+                    <div class="comparison-card">
+                        <h3>Jasper vs Copy.ai vs Writesonic</h3>
+                        <p>Find the best AI writing tool for your content creation workflow.</p>
+                        <a href="comparisons.html?compare=jasper-copyai-writesonic" class="btn btn-sm">See Comparison</a>
+                    </div>
+                </div>
+                <div class="view-all-container">
+                    <a href="comparisons.html" class="btn btn-secondary">View All Comparisons</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Latest Blog Posts Section -->
+        <section class="blog-posts">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Latest from the Blog</h2>
+                    <p>Insights, tutorials, and reviews from our AI experts</p>
+                </div>
+                <div class="blog-grid">
+                    <!-- Blog Post 1 -->
+                    <div class="blog-card">
+                        <div class="blog-image">
+                            <img src="/api/placeholder/400/250" alt="Blog Post Image">
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span class="blog-category">Reviews</span>
+                                <span class="blog-date">March 15, 2025</span>
+                            </div>
+                            <h3>ChatGPT-5 vs Gemini Ultra – Which Is Better?</h3>
+                            <p>A comprehensive comparison of the latest AI language models and their capabilities.</p>
+                            <a href="blog-post.html?id=chatgpt5-vs-gemini-ultra" class="read-more">Read More</a>
+                        </div>
+                    </div>
+
+                    <!-- Blog Post 2 -->
+                    <div class="blog-card">
+                        <div class="blog-image">
+                            <img src="/api/placeholder/400/250" alt="Blog Post Image">
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span class="blog-category">Tutorials</span>
+                                <span class="blog-date">March 10, 2025</span>
+                            </div>
+                            <h3>How to Use ChatGPT for Free: A Complete Guide</h3>
+                            <p>Learn how to maximize ChatGPT's free tier and get the most value without paying.</p>
+                            <a href="blog-post.html?id=how-to-use-chatgpt-free" class="read-more">Read More</a>
+                        </div>
+                    </div>
+
+                    <!-- Blog Post 3 -->
+                    <div class="blog-card">
+                        <div class="blog-image">
+                            <img src="/api/placeholder/400/250" alt="Blog Post Image">
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span class="blog-category">News</span>
+                                <span class="blog-date">March 5, 2025</span>
+                            </div>
+                            <h3>New AI Image Generator That Beats MidJourney?</h3>
+                            <p>Exploring the capabilities of the latest AI image generation breakthrough.</p>
+                            <a href="blog-post.html?id=new-ai-image-generator" class="read-more">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="view-all-container">
+                    <a href="blog.html" class="btn btn-secondary">View All Blog Posts</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- AI News Section -->
+        <section class="ai-news">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Latest AI News</h2>
+                    <p>Stay updated with the latest developments in AI technology</p>
+                </div>
+                <div class="news-list">
+                    <div class="news-item">
+                        <div class="news-date">March 18, 2025</div>
+                        <h3>OpenAI Announces New API Pricing Structure</h3>
+                        <p>OpenAI has updated its API pricing to be more accessible for developers and businesses.</p>
+                        <a href="news-detail.html?id=openai-new-pricing" class="read-more">Read More</a>
+                    </div>
+                    <div class="news-item">
+                        <div class="news-date">March 16, 2025</div>
+                        <h3>Google Releases New AI Features for Workspace</h3>
+                        <p>Google has added new AI capabilities to Docs, Sheets, and Slides for enhanced productivity.</p>
+                        <a href="news-detail.html?id=google-workspace-ai" class="read-more">Read More</a>
+                    </div>
+                    <div class="news-item">
+                        <div class="news-date">March 14, 2025</div>
+                        <h3>Meta's AI Assistant Now Available in 30 Languages</h3>
+                        <p>Meta has expanded its AI assistant's language capabilities to reach more users globally.</p>
+                        <a href="news-detail.html?id=meta-ai-languages" class="read-more">Read More</a>
+                    </div>
+                </div>
+                <div class="view-all-container">
+                    <a href="news.html" class="btn btn-secondary">View All News</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Find Your Tool Quiz Teaser -->
+        <section class="quiz-teaser">
+            <div class="container">
+                <div class="quiz-content">
+                    <h2>Not Sure Which AI Tool Is Right for You?</h2>
+                    <p>Take our quick quiz to get personalized AI tool recommendations based on your specific needs.</p>
+                    <a href="quiz.html" class="btn btn-primary">Take the Quiz</a>
+                </div>
+                <div class="quiz-image">
+                    <img src="/api/placeholder/500/300" alt="AI Tool Quiz">
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter Signup -->
+        <section class="newsletter">
+            <div class="container">
+                <div class="newsletter-content">
+                    <h2>Stay Updated on AI Trends</h2>
+                    <p>Subscribe to our newsletter to receive the latest AI tool reviews, tutorials, and industry news.</p>
+                    <form id="newsletter-form" class="newsletter-form">
+                        <input type="email" id="email" placeholder="Your email address" required>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <h2>AI<span>Tools</span>Directory</h2>
+                    </div>
+                    <p>Your comprehensive resource for discovering and comparing the best AI tools on the market.</p>
+                    <div class="social-links">
+                        <a href="#" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
+                        <a href="#" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a>
+                        <a href="#" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="tools.html">AI Tools</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="comparisons.html">Comparisons</a></li>
+                        <li><a href="news.html">AI News</a></li>
+                        <li><a href="quiz.html">Find Your Tool</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Categories</h3>
+                    <ul class="footer-links">
+                        <li><a href="tools.html?category=writing">Writing & Content</a></li>
+                        <li><a href="tools.html?category=image">Image Generation</a></li>
+                        <li><a href="tools.html?category=audio">Audio & Speech</a></li>
+                        <li><a href="tools.html?category=video">Video Creation</a></li>
+                        <li><a href="tools.html?category=chatbot">Chatbots & Assistants</a></li>
+                        <li><a href="tools.html?category=productivity">Productivity</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>About Us</h3>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                        <li><a href="affiliate.html">Affiliate Disclosure</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 AI Tools Directory. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
