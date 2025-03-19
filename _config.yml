@@ -7,10 +7,3 @@ paginate: 5
 plugins:
   - jekyll-paginate
   - jekyll-feed
-navigation:
-  - title: Home
-    url: /
-  - title: About
-    url: /about
-  - title: Contact
-    url: /contact
