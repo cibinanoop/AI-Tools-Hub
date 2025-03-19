@@ -3,5 +3,4 @@ author: Cibin Anoop
 description: Exploring AI technologies and their uses    
 theme: minima
 plugins:
-  - jekyll-paginate
   - jekyll-feed
